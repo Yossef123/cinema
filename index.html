@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Puru Bhagat" />
+    <title>
+        Excelsior Cinema Hong Kong | Movies and More | Watch the latest movies in Hong Kong
+        with us
+    </title>
+    <link rel="stylesheet" type="text/css" href="../css/common_style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="../css/homepage.css" media="all" />
+</head>
+
+<body>
+    <div id="search">
+        <p>|<a href="homepage.html">Excelsior Cinema</a>|Search: <input type="text" /></p>
+    </div>
+    <div class="transluscent-mat">
+        <!--Banner-->
+        <header>
+            <div class="header">
+                <div id="bannerimage">
+                    <img id="bannerjpg" src="../images/cinema.gif" alt="Excelsior Cinema" />
+                </div>
+                <div id="bannerlogo">
+                    <a class="homelink" href="homepage.html"><h1>EXCELSIOR CINEMA</h1></a>
+                </div>
+            </div>
+        </header>
+        
+        <div class="shiftup">
+            <!--Navigation menu-->
+            <nav>
+                <ul class="navigation">
+                    <li class="nav">
+                        <a href="homepage.html" id="currentlink">Movies</a>
+                    </li>
+                    <li class="nav">
+                        <a href="now_showing.html">Now Showing</a>
+                    </li>
+                    <li class="nav">
+                        <a href="ticket.html">Ticket</a>
+                    </li>
+                    <li class="nav">
+                        <a href="cinema_location.html">Cinema Location</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--Feature film and trailer-->
+            <div class="layout">
+                <div class="block">
+                    <div>
+                        <h4 id="feature">TRAILERS & FEAUTURE FILM</h4>
+                    </div>
+                    <div id="textright" class="verticalline block-left">
+                        <h3 id="movieName" class="pfeature">NATURES REVENGE</h3>
+                        <div id="audioControl">
+                            <img id="mute" src="../images/mute.png" alt="mute" class="icon" onclick="return toggle_voice(false);">
+                            <img id="unmute" src="../images/unmute.png" alt="unmute" class="icon" onclick="return toggle_voice(true);">
+                        </div>
+                        <video id="video" controls="controls" onended="setTimeout('change_video()',3000)">
+                        </video>
+                    </div>
+                    <div id="featuretext">
+                        <h3 class="pfeature">NATURES REVENGE</h3>
+                        <div id="featureinfo">
+                            <p class="pfeature"><span class="subheadings">DIRECTOR: </span>Woodpecker Allen</p>
+                            <p class="pfeature"><span class="subheadings">STARRING: </span>Emu Watson, Alligator Jolie, Kanagaroo Ranaut and Ian McKoala.</p>
+                            <p class="pfeature"><span class="subheadings">GENRE: </span>ACTION/DRAMA</p>
+                            <p class="pfeature"><span class="subheadings">RUNNING TIME: </span>135 min</p>
+                            <p class="pfeature"><span class="subheadings">LANGUAGE: </span>English</p>
+                            <p class="pfeature"><span class="subheadings">SYNOPSIS: </span>The mighty nature has finally retaliated after years of oppression. Humans are the
+                            only beings that stand between the animals and world domination.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!--Now showing and coming soon.-->
+            <div class="layout">
+                <div class="block">
+                    <div class="verticalline block-left">
+                        <h4 class="nscs">NOW SHOWING</h4>
+                        <a class="nowshowinglink trailerLink"><h3 class ="links_title" onclick="return change_video('Natures Revenge');">NATURES REVENGE</h3></a>
+                        <img class="poster" src="../images/naturesrevenge.jpg" alt="Nature's Revenge" />
+                        <div class="movie_info">
+                            <p><span class="subheadings">DIRECTOR: </span>Woodpecker Allen</p>
+                            <p><span class="subheadings">STARRING: </span>Emu Watson, Alligator Jolie, Kangaroo Ranaut and Ian McKoala.</p>
+                            <p><span class="subheadings">GENRE: </span>ACTION|DRAMA</p>
+                            <p><span class="subheadings">RUNNING TIME: </span>135 min</p>
+                            <p><span class="subheadings">LANGUAGE: </span>English</p>
+                            <p><span class="subheadings">SYNOPSIS: </span>The mighty nature has finally retaliated after years of oppression. Humans are the
+                            only beings that stand between the animals and world domination.</p>
+                        </div>
+                    </div>
+                    <div class="block-right">
+                        <h4 class="nscs" id="coming">UP COMING</h4>
+                        <a class="trailerLink"><h3 class ="links_title" onclick="return change_video('Death by Chocolate');">DEATH BY CHOCOLATE</h3></a>
+                        <img class="poster" src="../images/chocodeath.jpg" alt="Death by Chocolate" />
+                        <div class="movie_info">
+                            <p><span class="subheadings">DIRECTOR: </span>Quentin Tarantiramisu</p>
+                            <p><span class="subheadings">STARRING: </span>Reese's Whitherspoon and Marshall 'MnM' Mathers.</p>
+                            <p><span class="subheadings">GENRE: </span>THRILLER</p>
+                            <p><span class="subheadings">RUNNING TIME: </span>120 min</p>
+                            <p><span class="subheadings">LANGUAGE: </span>English</p>
+                            <p><span class="subheadings">SYNOPSIS: </span>A single mother of two tries to protect her family from the chocolate murderer on the loose.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="betweenmovies"/>
+                <div class="block">
+                    <div class="verticalline block-left">
+                        <a class="nowshowinglink trailerLink"><h3 class ="links_title" onclick="return change_video('In Between Posts');">IN BETWEEN POSTS</h3></a>
+                        <img class="poster" src="../images/inbetweenposts.jpg" alt="In Between Posts" />
+                        <div class="movie_info">
+                            <p><span class="subheadings">DIRECTOR: </span>Josep Platter</p>
+                            <p><span class="subheadings">STARRING: </span>Davison Bechkham, Lionel Misie and Hope Solo.</p>
+                            <p><span class="subheadings">GENRE: </span>DRAMA|SPORT</p>
+                            <p><span class="subheadings">RUNNING TIME: </span>102 min</p>
+                            <p><span class="subheadings">LANGUAGE: </span>English</p>
+                            <p><span class="subheadings">SYNOPSIS: </span>The extremely talented Fernando Lampard is given a chance at professional football, after
+                            being spotted by a scout who has ties with Sheffield United.</p>
+                        </div>
+                    </div>
+                    <div class="block-right">
+                        <a class="trailerLink"><h3 class ="links_title" onclick="return change_video('The Diary');">THE DIARY</h3></a>
+                        <img class="poster" src="../images/thediary.jpg" alt="The Diary" />
+                        <div class="movie_info">
+                            <p><span class="subheadings">DIRECTOR: </span>Terry Jones</p>
+                            <p><span class="subheadings">STARRING: </span>Edward Cullen, Michael Ballack and Michelle Palin.</p>
+                            <p><span class="subheadings">GENRE: </span>ROMANCE</p>
+                            <p><span class="subheadings">RUNNING TIME: </span>140 min</p>
+                            <p><span class="subheadings">LANGUAGE: </span>English</p>
+                            <p><span class="subheadings">SYNOPSIS: </span>A poor and passionate young man falls in love with a rich young woman and
+                            gives her a sense of freedom. They soon are separated by their social differences.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="betweenmovies"/>
+                <div class="block">
+                    <div class="verticalline block-left">
+                        <a class="nowshowinglink trailerLink"><h3 class ="links_title" onclick="return change_video('Jonty Cobra: Grail');">JONTY COBRA: GRAIL</h3></a>
+                        <img class="poster" src="../images/jontycobra.jpg" alt="Jonty Cobra: Grail" />
+                        <div class="movie_info">
+                            <p><span class="subheadings">DIRECTOR: </span>Jerry Gilliam</p>
+                            <p><span class="subheadings">STARRING: </span>Graham Clapman, John Cheese and Nicklas Jones.</p>
+                            <p><span class="subheadings">GENRE: </span>ADVENTURE|COMEDY</p>
+                            <p><span class="subheadings">RUNNING TIME: </span>135 min</p>
+                            <p><span class="subheadings">LANGUAGE: </span>English</p>
+                            <p><span class="subheadings">SYNOPSIS: </span>King Wesley and his knights embark on a low-budget search for the Grail, encountering
+                            many very silly obstacles.</p>
+                        </div>
+                    </div>
+                    <div class="block-right">
+                        <a class="trailerLink"><h3 class ="links_title" onclick="return change_video(document.querySelectorAll('links_title')[5].innerHTML);">BROOKLYN</h3></a>
+                        <img class="poster" src="../images/brooklyn.jpg" alt="Brooklyn" />
+                        <div class="movie_info">
+                            <p><span class="subheadings">DIRECTOR: </span>John Crowley</p>
+                            <p><span class="subheadings">STARRING: </span>Saoirse Ronan, Domhnall Gleeson and Michael Zegen</p>
+                            <p><span class="subheadings">GENRE: </span>ROMANCE|COMEDY.</p>
+                            <p><span class="subheadings">RUNNING TIME: </span>115 min</p>
+                            <p><span class="subheadings">LANGUAGE: </span>English</p>
+                            <p><span class="subheadings">SYNOPSIS: </span>In 1950s Ireland and New York, young Eilis Lacey has to choose between two men and two countries.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <!--sitemap-->
+        <nav>
+            <ul id="sitemap">
+                <li class="smap">
+                    <a href="homepage.html" class="sitemap">MOVIES</a> | 
+                </li>
+                <li class="smap">
+                    <a href="now_showing.html" class="sitemap">NOW SHOWING</a> |
+                </li>
+                <li class="smap">
+                    NEXT CHANGE |
+                </li>
+                <li class="smap">
+                    COMING SOON |
+                </li>
+                <li class="smap">
+                    <a href="ticket.html" class="sitemap">TICKET</a> |
+                </li>
+                <li class="smap">
+                    <a href="cinema_location.html" class="sitemap">CINEMA LOCATION</a> |
+                </li>
+                <li class="smap">
+                    CINEMA REWARDS |
+                </li>
+                <li class="smap">
+                    TERMS AND CONDITIONS |
+                </li>
+                <li class="smap">
+                    CONTACT US
+                </li>
+            </ul>
+        </nav>
+        <hr />
+        <!--Copyright and design link-->
+        <div id="bottomfooter">
+            <span id="designsalutation">
+                Site <a href="design.html" target="_blank">design </a>by Puru Bhagat.
+            </span>
+            <span>
+                © Copyright 2024 yousef sakr. All Rights Reserved.
+            </span>
+        </div>
+    </footer>
+    <script type="text/javascript" src="../js/homepage.js"></script>
+    <script type="text/javascript" src="../js/now_showing.js"></script>
+    <script type="text/javascript" src="../js/audi.js"></script>
+</body>
+
+</html>
