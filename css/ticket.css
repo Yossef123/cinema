@@ -1,0 +1,150 @@
+h3 {
+	font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	margin: 30px 0 0 30px;
+	color: #2f4f4f;
+}
+
+h2 {
+	font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: #2f4f4f;
+	text-align: center;
+}
+
+#movie_in {
+    font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: silver;
+	text-align: center;
+}
+
+#screen_container {
+	height: 700px;
+}
+
+#screen {
+	background-color: #c1fcc1;
+	height: 25px;
+	width: 500px;
+	margin: 20px auto;
+	padding: 25px;
+	text-align: center;
+	font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	color: #2d4b2d;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+	border-spacing: 10px;
+}
+
+.row {
+	display: table-row;
+	color: yellow;
+}
+
+.cell {
+	display: table-cell;
+	padding:15px 30px;
+	border: 1px solid gray;
+	margin:10px;
+	color: white;
+}
+
+.cell-selected {
+	display: table-cell;
+	padding: 15px 30px;
+	border: 1px solid gray;
+	margin 10px;
+	background-color: #7f7f7f;
+	color: #fff;
+}
+
+.cell-tmpSelected {
+	display: table-cell;
+	padding: 15px 30px;
+	border: 1px solid gray;
+	margin 10px;
+	background-color: #5b965b;
+	color: #fff;
+}
+
+.cell:hover {
+	background-color: #79c879;
+}
+
+.cell:active {
+	background-color: #5b965b;
+	color: white;
+}
+
+#form_container {
+	display: block;
+	margin: 0px auto;
+	width: 76px;
+}
+
+#form_container button {
+  color: #900;
+  border: 1px solid #900;
+  font-weight: bold;
+  height: 30px;
+  width: 75px;
+  margin: 0px 10px 0px 10px
+}
+
+#info {
+	display: block;
+	margin: 0px auto;
+	width:600px;
+	font-size: 10pt;
+	margin-left: 220px;
+}
+
+.colour-block {
+	width: 20px;
+	height: 20px;
+	border: 1px solid gray;
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.status {
+	color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+}
+
+#selected {
+	background-color: #5b965b;
+}
+
+#unavailable {
+	background-color: #7f7f7f;
+}
+
+#movie_title {
+        text-align: center;
+        font: 28px Papyrus, fantasy;
+        color: silver;
+        text-decoration: none;
+}

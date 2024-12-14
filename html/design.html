@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Puru Bhagat" />
+    <title>
+        Excelsior Cinema Hong Kong | Movies and More | Watch the latest movies in Hong Kong
+        with us
+    </title>
+    <link rel="stylesheet" type="text/css" href="../css/design.css" media="all" />
+</head>
+
+<body>
+    <div class="layout">
+        <header>
+            <div class="header">
+                <div id="bannerimage">
+                    <img id="bannerjpg" src="../images/cinema.gif" alt="Excelsior Cinema" />
+                </div>
+                <div id="bannerlogo">
+                    <a class="homelink" href="homepage.html"><h1>EXCELSIOR CINEMA</h1></a>
+                </div>
+            </div>
+        </header>
+        <div class="shiftup">
+            <!--Overall layout and theme design-->
+            <h4 class="section">Overall Layout and Theme Design</h4>
+            <img class="screenshots" id="headerlayout" src="../images/header.jpg" alt="Header Layout" />
+            <img class="screenshots" id="footerlayout" src="../images/footer.jpg" alt="Footer Layout" />
+            <p>
+                The basic theme of the website involves four colors: white, silver, blue and black. I chose these colors because the
+                contrast between white & silver and the darker blue & black makes it easier to read text and distinguish features.
+                The background image is also blue due to this reason.
+            </p>
+            <p>    
+                The common layout among the different pages includes the search bar, the banner (logo + name), the navigation menu
+                and the footer. All the individual page content appears on blocks on a transluscent layer. This way the varying background
+                colors do not interfere with the content but at the same time give a nice appearance.
+            </p>
+            <p>In the images shown here, the red outline shows blocks and the yellow outlines show further sub-divison of blocks. I have done
+                this using various tags such as header, footer, nav, div and span throughout the website. I made use of lists
+                for the navigation menu in the header and the sitemap in the footer.
+            </p>
+            <p>
+                The common style between the html pages has been separated into an external style sheet whereas the page specific style is embedded.
+                I used basic, contextual and advanced selectors to keep style simple and less cluttered. I have also used CSS3 properties to make
+                the banner image rotate 360 degrees on hovering and focus selector to highlight search query input. Other notable CSS properties used
+                were float, padding, margin, position, box-shadow, box-sizing, display, overflow, etc.
+            </p>
+            <!--Page design-->
+            <h4 class="section">Page Design</h4>
+            <img class="screenshots" id="homepagelayout" src="../images/homepage.jpg" alt="Home Page Layout" />
+            <p>
+                Here, I chose to have one block for a film being featured along with a trailer (for which I used the video tag). Below the
+                feature block, I structured two blocks side-by-side for Now Showing and Upcoming movies respectively with the help of float
+                property. Clicking the Now Showing movie titles opens their respective blocks on the Now Showing web page. I used the z-index
+                CSS property to ensure that the video block appeared above its description block and its controls were accessible. Other notable
+                CSS properties used here are margin, padding, background: linear-gradient(), border-radius, etc.
+            </p>
+            <img class="screenshots" id="nowshowinglayout" src="../images/nowshowing.jpg" alt="Now Showing Layout" />
+            <p>
+                The content on this web page is divided into three main blocks, one for each now showing movie. The blocks are further sub divided
+                into blocks for alignment and input. Notable HTML tages used here include form, select and option with the help of which the user
+                can choose his preferred movie screening. Notable CSS properties used here are float, margin, padding and position. On clicking 'Buy
+                Ticket', the browser links to the Ticket page.
+            </p>
+            <img class="screenshots" id="ticketlayout" src="../images/ticket.jpg" alt="Ticket Layout" />
+            <p>
+                There is only one main section. Here, users select the seats they want and confirm their booking of the movie screening. I have used
+                multiple blocks with the help of the div tag to create the cinema layout. The red seats are already booked, whereas the white ones
+                are vacant. They turn green on hovering and are clickable. Notable CSS features used here are float, position, text-align, margin and
+                padding.
+            </p>
+            <img class="screenshots" id="locationlayout" src="../images/location.jpg" alt="Cinema Location Layout" />
+            <p>
+                Again, the content is divided into two main blocks. One contains the embedded custom Google Map and the other contains transport
+                information. Notable html tags used here are iframe (embedded custom Google Map) and table (bus transport information). Notable CSS
+                properties used are float, margin, padding and border.
+            </p>
+            <h4 class="section">JavaScript</h4>
+            <p>
+                I've made the use of obtrusive and unobtrusive JavaScript in this website, depending on the number of elements that required event handlers changing.
+            </p>
+            <p>
+                Obtrusive:
+            </p>
+                <ul>
+                <li>In Movies page, the onended event hander of the video tag to call the switchVideo() function when it ends and the onclick event handler of the mute img tag.</li>
+                <li>In Tickets page, the Submit button's onclick handler is set to call the submitForm() function.</li>
+                </ul><br>
+                
+            <p>    
+                Unobtrusive:
+            </p>
+            <p>
+                Unobtrusive Javascript was used in all cases where multiple elements had to be selected.
+            </p>
+                <ul>
+                <li>Eg.: Changing the onclick handler of all Movie titles on the Movies page.</li>
+                <li>Populate the Forms present on the Now Showing page by using DOM techniques to .</li>
+                <li>Set onclick handlers for all div table-cells on the Tickets Page.</li>
+                </ul>
+            
+            <!--acknowledgement-->
+            <h4 class="section">Acknowledgement</h4>
+            <p id="acknowledgement">
+                http://www.cssfontstack.com/<br />
+                http://www.w3schools.com/<br />
+                http:/www.images.google.com/
+            </p><br><br>
+        </div>
+    </div>
+</body>
+
+</html>

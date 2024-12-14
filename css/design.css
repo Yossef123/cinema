@@ -1,0 +1,142 @@
+body { 
+    background: url("../images/bokkeh_background.jpg") no-repeat center center fixed, blue; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.layout {
+    width: 916px;
+    margin: auto;
+    background-color: white;
+    padding-top: 0.1px;
+    box-shadow: 2px 2px 2px #888888;
+}
+        
+.shiftup{
+    position: relative;
+    top: -39px;
+}
+
+header {
+    background-color: black;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    color: silver;
+    font: 28px Papyrus, fantasy;
+    min-width: 924px;
+    display: block;
+    min-height: 120px;
+    margin-top: -3px;
+    position: relative;
+    left: -4px;
+}
+        
+h1 {
+    margin-right: 20px;
+}
+        
+#bannerimage {
+    float: left;
+    width: 100px;
+    text-align: right;
+}
+        
+#bannerjpg {
+    position: relative;
+    left: 25%;
+    border: groove 2px black;
+}
+        
+#bannerimage + div {
+    text-align: right;
+}
+        
+#bannerimage img {
+    height: 100px;
+    width: 100px;
+    border: black solid 2px;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transition: transform 3s;
+    transition: transform 3s;
+}
+        
+#bannerimage img:hover {
+    -webkit-transform: rotateY(360deg); /* Safari */
+    transform: rotateY(360deg);
+}
+        
+#bannerlogo {
+    margin-right: 0;
+}
+        
+.homelink {
+    color: silver;
+    text-decoration: none;
+}
+                
+p {
+    padding-left: 5px;
+}
+                
+.screenshots {
+    width: 870px;
+    border: 1.5px solid black;
+    box-shadow: 2px 2px 1px #888888;
+    position: relative;
+    left: 20px;
+}
+        
+#headerlayout {
+    height: 200px;
+    margin-top: 15px;
+}
+        
+#footerlayout {
+    height: 150px;
+    margin-top: 5px;
+}
+        
+#homepagelayout {
+    height: 400px;
+    margin-top: 10px;
+}
+        
+#nowshowinglayout {
+    height: 300px;
+    margin-top: 10px;
+}
+        
+#ticketlayout{
+    height: 400px;
+    margin-top: 10px;
+}
+        
+#acknowledgement {
+    padding-bottom: 10px;
+    margin-top: 15px;
+    position: relative;
+    top: 10px;
+}
+        
+.section {
+    height: 27.5px;
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding-top: 6.125px;
+    font-family: Coronetscript, cursive;
+    color: white;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 1px 1px 1px black;
+    background-color: #102336;
+    overflow: hidden;
+    position: relative;
+    left: -5px;
+    top: 10px;
+}
